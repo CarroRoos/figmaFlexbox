@@ -1,0 +1,176 @@
+.pinkBackground {
+    background-color: #CC8B8C; 
+    padding: 20px; 
+}
+
+.screen {
+    display:flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.container {
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 160px;
+    width: 468px;
+    margin: 20px; 
+}
+
+.boxes { 
+    min-height: 40%; 
+    width: 15%;
+    margin: 20px; 
+    border-radius: 4px;
+}
+
+.yellow {
+    background-color: #FFBF46;
+    align-items: flex-end; 
+}
+
+.green {
+    background-color: #648381; 
+    justify-content: flex-end;
+    align-items: center; 
+    
+}
+
+.lightgreen {
+    background-color: #E4FDE1; 
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.darkgreen {
+    background-color: #8ACB88; 
+    justify-content: center;
+}
+
+.grey {
+    background-color: #575761;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.greenlight {
+    background-color: #6C969D;
+    justify-content: center;
+    align-items: center; 
+}
+
+.greyBox {
+    background: #575761;
+}
+
+.lightGreenBox {
+    background: #E4FDE1;
+}
+
+.yellowBox {
+    background: #FFBF46;
+}
+
+
+.greeenBox {
+    background: #8ACB88; 
+}
+
+.darkGreenBox {
+    background: #648381;
+}
+
+.lightyellowBox {
+    background: #FAF2A1;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.flexGrow {
+    flex-grow: 1;
+}
+
+.place-self-end{
+    place-self: flex-end;
+}
+
+.place-self-stretch{
+    place-self: stretch;
+}
+
+/* MacBook2 */
+
+.purpleBackground {
+    background-color: #7180AC;
+    padding: 20px; 
+    margin-top: 20px;
+}
+
+.screenTwo {
+    display:flex; 
+    flex-wrap: wrap; 
+}
+
+.containerTwo {
+    display: flex;
+    width: 273px;
+    height: 220px;
+    margin: 20px; 
+}
+
+.circles {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+.darkBlueContainerOne {
+    background-color: #2B4570; 
+    flex-flow: inherit;
+    flex-direction: column;
+}
+
+.darkBlueContainerTwo {
+    background-color: #2B4570; 
+    flex-flow: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.darkBlueContainerThree {
+    background-color: #2B4570;
+    flex-flow: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lightBlueContainerOne {
+   background-color:  #A8D0DB;
+   flex-flow: wrap-reverse;
+   flex-direction: column-reverse;
+}
+
+.lightBlueContainerTwo {
+    background-color:  #A8D0DB;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.orangeCircles {
+    background-color: #E49273;
+}
+
+.brownCircles {
+    background-color: #A37A74;
+}
+
+
